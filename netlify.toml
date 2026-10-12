@@ -1,5 +1,11 @@
 [build]
   publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/collect/:id"
+  to = "/.netlify/functions/collect?id=:id"
+  status = 200
 
 [[headers]]
   for = "/*"
