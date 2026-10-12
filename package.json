@@ -1,0 +1,9 @@
+{
+  "name": "the-dread-index-beta",
+  "version": "0.9.0",
+  "private": true,
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "jsdom": "^26.1.0"
+  }
+}
